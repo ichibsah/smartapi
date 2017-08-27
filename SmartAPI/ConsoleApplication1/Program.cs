@@ -8,7 +8,7 @@ using System.Net;
 using erminas.SmartAPI.CMS;
 using erminas.SmartAPI.Utils;
 
-namespace ConsoleApplication1
+namespace DisplayProjectName
 {
     class Program
     {
@@ -17,7 +17,7 @@ namespace ConsoleApplication1
             // RedDot Login with (user/password)
             var authData = new PasswordAuthentication("user", "password");
 
-            var login = new ServerLogin { Address = new Uri("http://localhost/cms"), AuthData = authData };
+            var login = new ServerLogin() { Address = new Uri("http://localhost/cms"), AuthData = authData };
 
             // Session is the entry point to interact with the RedDot server.
             // Creating the session object automatically creates a connection.

@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayProjectName", "Conso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fullPublish", "fullPublish\fullPublish.csproj", "{1EB24D62-E6B1-4B11-8D42-14CC8F9D37A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteUnlinkedPages", "DeleteUnlinkedPages\DeleteUnlinkedPages.csproj", "{D804E876-F6EF-494A-99AA-9B0A24B0D434}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{1EB24D62-E6B1-4B11-8D42-14CC8F9D37A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EB24D62-E6B1-4B11-8D42-14CC8F9D37A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EB24D62-E6B1-4B11-8D42-14CC8F9D37A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D804E876-F6EF-494A-99AA-9B0A24B0D434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D804E876-F6EF-494A-99AA-9B0A24B0D434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D804E876-F6EF-494A-99AA-9B0A24B0D434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D804E876-F6EF-494A-99AA-9B0A24B0D434}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
