@@ -101,6 +101,8 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="logo.gif" />
+    <Content Include="plug-in-definition.xml" />
     <Content Include="Project.aspx" />
     <Content Include="ContentClass.aspx" />
     <Content Include="Content\bootstrap.css" />

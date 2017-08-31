@@ -14,10 +14,7 @@
             </p>
             <p>
 
-                <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="ObjectDataSource1" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
-                </asp:DropDownList>
-
-            </p>
+                &nbsp;</p>
         </div>
         <div class="col-md-4">
             <h2>Select Language</h2>
