@@ -22,24 +22,28 @@ namespace fullPublish
         protected void Page_Load(object sender, EventArgs e)
         {
             //url of the cms server
-            var url = "http://mycmsserver/cms";
+            var url = "http://localhost/cms";
  
             //Authentication data can be null, if you want to use an existing session.
             //Note that there are some methods however which require the users password to be set,
             //e.g. the deletion of keywords. This is stated in the documentation of the according methods.
             var login = new ServerLogin(url, null);
-
-            string loginGuid = Request["LoginGuid"];
-            string sessionKey = Request["SessionKey"].ToString();
-            string projectGuid = Request["ProjectGuid"];
-            //var sessionBuilder = new SessionBuilder(login, loginGuid, sessionKey, projectGuid);
+            Guid loginGuid;
+            Guid projectGuid;
+            Guid.TryParse(Request["LoginGuid"], out loginGuid);
+            String sessionKey = Request["SessionKey"];
+            Guid.TryParse(Request["ProjectGuid"], out projectGuid);
+            
+            var sessionBuilder = new SessionBuilder(login, loginGuid, sessionKey, projectGuid);
 
             //note that we don't use the using statement because we usually
             //do not want to close the running cms session, when we are done (e.g. in a plugin)
-            //var session = sessionBuilder.CreateSession();
+            var session = sessionBuilder.CreateSession();
             //session.
 
-            TextBox1.Text = sessionKey;
+            //TextBox1.Text = sessionKey;
+            TextBox1.Text = projectGuid.ToString();
+            //var project = session.ServerManager.Projects.
 
         }
 
