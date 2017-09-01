@@ -29,14 +29,17 @@ namespace fullPublish
             //e.g. the deletion of keywords. This is stated in the documentation of the according methods.
             var login = new ServerLogin(url, null);
  
-            Guid loginGuid = ...;
-            string sessionKey = ...;
-            Guid projectGuid = ...;
+            Guid loginGuid = Session["LoginGuid"];
+            string sessionKey = Session["SessionKey"].ToString();
+            Guid projectGuid = Session["ProjectGuid"];
             var sessionBuilder = new SessionBuilder(login, loginGuid, sessionKey, projectGuid);
- 
+
             //note that we don't use the using statement because we usually
             //do not want to close the running cms session, when we are done (e.g. in a plugin)
             var session = sessionBuilder.CreateSession();
+            session.
+
+
         }
 
        

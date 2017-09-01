@@ -1,5 +1,7 @@
-REM git pull http://scm.nws-intern.de/gegozi/GIZ-Rebrush.git
+git remote add upstream https://github.com/erminas/smartapi.git
 
-git pull https://github.com/ichibsah/smartapi.git
+git fetch upstream
+
+REM git pull upstream master
 
 pause
