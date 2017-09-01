@@ -16,10 +16,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/26/2017 17:11:59</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>08/31/2017 12:55:09</publishTime>
+      <publishTime>09/01/2017 15:18:39</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>08/31/2017 12:55:09</publishTime>
+      <publishTime>09/01/2017 15:18:39</publishTime>
     </File>
     <File Include="bin/AspNet.ScriptManager.bootstrap.dll">
       <publishTime>08/26/2017 17:12:00</publishTime>
@@ -31,7 +31,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/26/2017 17:12:24</publishTime>
     </File>
     <File Include="bin/fullPublish.dll">
-      <publishTime>08/31/2017 12:49:25</publishTime>
+      <publishTime>09/01/2017 15:18:35</publishTime>
     </File>
     <File Include="bin/log4net.dll">
       <publishTime>01/23/2017 14:41:55</publishTime>
@@ -79,7 +79,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/29/2017 14:51:44</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>08/31/2017 11:19:23</publishTime>
+      <publishTime>09/01/2017 15:15:40</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>08/26/2017 17:11:54</publishTime>
@@ -109,7 +109,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/31/2017 12:53:17</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>08/31/2017 12:55:08</publishTime>
+      <publishTime>09/01/2017 15:18:37</publishTime>
     </File>
     <File Include="Project.aspx">
       <publishTime>08/29/2017 14:56:19</publishTime>

@@ -28,17 +28,23 @@ namespace fullPublish
             //Note that there are some methods however which require the users password to be set,
             //e.g. the deletion of keywords. This is stated in the documentation of the according methods.
             var login = new ServerLogin(url, null);
- 
-            Guid loginGuid = Session["LoginGuid"];
-            string sessionKey = Session["SessionKey"].ToString();
-            Guid projectGuid = Session["ProjectGuid"];
-            var sessionBuilder = new SessionBuilder(login, loginGuid, sessionKey, projectGuid);
+
+            string loginGuid = Request["LoginGuid"];
+            string sessionKey = Request["SessionKey"].ToString();
+            string projectGuid = Request["ProjectGuid"];
+            //var sessionBuilder = new SessionBuilder(login, loginGuid, sessionKey, projectGuid);
 
             //note that we don't use the using statement because we usually
             //do not want to close the running cms session, when we are done (e.g. in a plugin)
-            var session = sessionBuilder.CreateSession();
-            session.
+            //var session = sessionBuilder.CreateSession();
+            //session.
 
+            TextBox1.Text = sessionKey;
+
+        }
+
+        protected void TextBox1_TextChanged(object sender, System.EventArgs e)
+        {
 
         }
 
