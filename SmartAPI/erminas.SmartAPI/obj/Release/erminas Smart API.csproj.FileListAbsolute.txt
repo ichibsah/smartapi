@@ -1,0 +1,15 @@
+G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Release\erminas SmartAPI.dll.config
+G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Release\erminas SmartAPI.dll
+G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Release\erminas SmartAPI.pdb
+G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Release\log4net.dll
+G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Release\System.IO.dll
+G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Release\System.Runtime.dll
+G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Release\System.Threading.Tasks.dll
+G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Release\log4net.xml
+G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Release\System.IO.xml
+G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Release\System.Runtime.xml
+G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Release\System.Threading.Tasks.xml
+G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\obj\Release\erminas Smart API.csproj.App.config
+G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\obj\Release\erminas Smart API.csprojResolveAssemblyReference.cache
+G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\obj\Release\erminas SmartAPI.dll
+G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\obj\Release\erminas SmartAPI.pdb

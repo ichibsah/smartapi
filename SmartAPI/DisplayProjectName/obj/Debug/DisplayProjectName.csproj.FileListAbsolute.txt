@@ -1,0 +1,10 @@
+G:\Sanbox\smartapi\SmartAPI\ConsoleApplication1\bin\Debug\erminas SmartAPI.dll
+G:\Sanbox\smartapi\SmartAPI\ConsoleApplication1\bin\Debug\log4net.dll
+G:\Sanbox\smartapi\SmartAPI\ConsoleApplication1\bin\Debug\erminas SmartAPI.pdb
+G:\Sanbox\smartapi\SmartAPI\ConsoleApplication1\bin\Debug\log4net.xml
+G:\Sanbox\smartapi\SmartAPI\ConsoleApplication1\obj\Debug\DisplayProjectName.csprojResolveAssemblyReference.cache
+G:\Sanbox\smartapi\SmartAPI\ConsoleApplication1\bin\Debug\DisplayProjectName.exe.config
+G:\Sanbox\smartapi\SmartAPI\ConsoleApplication1\bin\Debug\DisplayProjectName.exe
+G:\Sanbox\smartapi\SmartAPI\ConsoleApplication1\bin\Debug\DisplayProjectName.pdb
+G:\Sanbox\smartapi\SmartAPI\ConsoleApplication1\obj\Debug\DisplayProjectName.exe
+G:\Sanbox\smartapi\SmartAPI\ConsoleApplication1\obj\Debug\DisplayProjectName.pdb

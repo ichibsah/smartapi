@@ -1,0 +1,25 @@
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\fullPublish.dll.config
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\fullPublish.dll
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\fullPublish.pdb
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\Antlr3.Runtime.dll
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\AspNet.ScriptManager.bootstrap.dll
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\AspNet.ScriptManager.jQuery.dll
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\Microsoft.AspNet.FriendlyUrls.dll
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\Microsoft.ScriptManager.MSAjax.dll
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\Microsoft.ScriptManager.WebForms.dll
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\Microsoft.Web.Infrastructure.dll
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\Newtonsoft.Json.dll
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\System.Web.Optimization.dll
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\WebGrease.dll
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\System.Web.Optimization.xml
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\Antlr3.Runtime.pdb
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\Newtonsoft.Json.xml
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\Microsoft.AspNet.FriendlyUrls.xml
+G:\Sanbox\smartapi\SmartAPI\fullPublish\obj\Release\fullPublish.csprojResolveAssemblyReference.cache
+G:\Sanbox\smartapi\SmartAPI\fullPublish\obj\Release\fullPublish.dll
+G:\Sanbox\smartapi\SmartAPI\fullPublish\obj\Release\fullPublish.pdb
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\erminas SmartAPI.dll
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\log4net.dll
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\erminas SmartAPI.pdb
+G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\log4net.xml
