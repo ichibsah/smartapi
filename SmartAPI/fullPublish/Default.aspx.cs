@@ -19,31 +19,43 @@ namespace fullPublish
 {
     public partial class _Default : Page
     {
+        protected void init(object sender, EventArgs e)
+        {
+            
+      
+        }
         protected void Page_Load(object sender, EventArgs e)
         {
-            //url of the cms server
+            Session["LoginGuid"] = Request["LoginGuid"];
+            Session["SessionKey"] = Request["SessionKey"];
+            Session["ProjectGuid"] = Request["ProjectGuid"];
+
             var url = "http://localhost/cms";
- 
-            //Authentication data can be null, if you want to use an existing session.
-            //Note that there are some methods however which require the users password to be set,
-            //e.g. the deletion of keywords. This is stated in the documentation of the according methods.
             var login = new ServerLogin(url, null);
+
+ 
             Guid loginGuid;
             Guid projectGuid;
-            Guid.TryParse(Request["LoginGuid"], out loginGuid);
-            String sessionKey = Request["SessionKey"];
-            Guid.TryParse(Request["ProjectGuid"], out projectGuid);
-            
+            Guid.TryParse(Convert.ToString(Session["LoginGuid"]), out loginGuid);
+            String sessionKey = Convert.ToString(Session["SessionKey"]);
+            Guid.TryParse(Convert.ToString(Session["ProjectGuid"]), out projectGuid);
+
             var sessionBuilder = new SessionBuilder(login, loginGuid, sessionKey, projectGuid);
 
             //note that we don't use the using statement because we usually
             //do not want to close the running cms session, when we are done (e.g. in a plugin)
             var session = sessionBuilder.CreateSession();
             //session.
-
             //TextBox1.Text = sessionKey;
-            TextBox1.Text = projectGuid.ToString();
-            //var project = session.ServerManager.Projects.
+            
+            IProject project;
+            session.ServerManager.Projects.TryGetByGuid(projectGuid, out project);
+
+            String projectName = project.Name;
+
+            TextBox1.Text = projectName;
+
+
 
         }
 
@@ -52,7 +64,7 @@ namespace fullPublish
 
         }
 
-       
+
     }
 }
 /* https://www.youtube.com/watch?v=Lvt1BnSwRvo&index=5&list=PL6n9fhu94yhXQS_p1i-HLIftB9Y7Vnxlo */
