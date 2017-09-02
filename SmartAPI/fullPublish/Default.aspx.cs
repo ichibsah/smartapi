@@ -14,6 +14,7 @@ using System.Text;
 using System.Threading.Tasks;
 using erminas.SmartAPI.CMS.Project.Pages;
 using erminas.SmartAPI.Utils;
+using erminas.SmartAPI.CMS.Project.ContentClasses;
 
 namespace fullPublish
 {
@@ -55,7 +56,8 @@ namespace fullPublish
 
             TextBox1.Text = projectName;
 
-
+            IContentClasses contentClass = project.ContentClasses;
+            //project.Pages.
 
         }
 
