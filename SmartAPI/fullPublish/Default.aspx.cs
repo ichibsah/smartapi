@@ -57,11 +57,22 @@ namespace fullPublish
             TextBox1.Text = projectName;
 
             IContentClasses contentClass = project.ContentClasses;
+            //oConsole.Text = project.Pages.StartPages.ForMainLanguage.Count().ToString(); //works
+            var search = project.Pages.CreateSearch();
+            //search.Category = 
+            search.PageType = PageType.Unlinked;
+            var unlinkedPages = search.Execute();
             //project.Pages.
+            //unlinkedPages.
 
         }
 
         protected void TextBox1_TextChanged(object sender, System.EventArgs e)
+        {
+
+        }
+
+        protected void oConsole_TextChanged(object sender, System.EventArgs e)
         {
 
         }

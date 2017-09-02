@@ -39,7 +39,7 @@
 
     <div class="row">
         <div class="col-md-12">
-
+            <asp:TextBox ID="oConsole" runat="server" TextMode="MultiLine" Rows="5" ReadOnly="True" OnTextChanged="oConsole_TextChanged"></asp:TextBox>
         </div>
     </div>
 </asp:Content>
