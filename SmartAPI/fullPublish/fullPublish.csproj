@@ -41,6 +41,10 @@
     <Reference Include="erminas SmartAPI">
       <HintPath>..\erminas.SmartAPI\bin\Release\erminas SmartAPI.dll</HintPath>
     </Reference>
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=9763136d9e6661ad, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\erminas.SmartAPI\bin\Release\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />

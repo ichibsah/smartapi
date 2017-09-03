@@ -1,20 +1,10 @@
-﻿using erminas.SmartAPI.Utils;
-using erminas.SmartAPI.CMS.Project;
-using erminas.SmartAPI.CMS.ServerManagement;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using erminas.SmartAPI.CMS.Project.Pages;
+﻿using erminas.SmartAPI.CMS.Project;
+using erminas.SmartAPI.CMS.Project.Publication;
 using erminas.SmartAPI.Utils;
-using erminas.SmartAPI.CMS.Project.ContentClasses;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web.UI;
 
 namespace fullPublish
 {
@@ -22,8 +12,8 @@ namespace fullPublish
     {
         protected void init(object sender, EventArgs e)
         {
-            
-      
+
+
         }
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -34,7 +24,7 @@ namespace fullPublish
             var url = "http://localhost/cms";
             var login = new ServerLogin(url, null);
 
- 
+            //Guid test = new Guid(Session["LoginGuid"].ToString());
             Guid loginGuid;
             Guid projectGuid;
             Guid.TryParse(Convert.ToString(Session["LoginGuid"]), out loginGuid);
@@ -43,41 +33,64 @@ namespace fullPublish
 
             var sessionBuilder = new SessionBuilder(login, loginGuid, sessionKey, projectGuid);
 
-            //note that we don't use the using statement because we usually
-            //do not want to close the running cms session, when we are done (e.g. in a plugin)
+            //session
             var session = sessionBuilder.CreateSession();
-            //session.
-            //TextBox1.Text = sessionKey;
-            
-            IProject project;
-            session.ServerManager.Projects.TryGetByGuid(projectGuid, out project);
 
-            String projectName = project.Name;
+            //serverManger
+            var serverManager = session.ServerManager;
 
-            TextBox1.Text = projectName;
+            IProject selectedProject = serverManager.Projects.ForCurrentUser.GetByGuid(projectGuid);
+            //var selectedProject = session.SelectedProject;
 
-            IContentClasses contentClass = project.ContentClasses;
-            //oConsole.Text = project.Pages.StartPages.ForMainLanguage.Count().ToString(); //works
-            var search = project.Pages.CreateSearch();
-            //search.Category = 
-            search.PageType = PageType.Unlinked;
-            var unlinkedPages = search.Execute();
-            //project.Pages.
-            //unlinkedPages.
+
+            TextBox1.Text = "Project: " + selectedProject.Name;
+
+            var projectVariant = selectedProject.ProjectVariants;
+
+            IProject proj = selectedProject;
+
+            var project = session.SelectedProject;
+
+            //var newPage = selectedProject.Pages.OfCurrentLanguage[0];
+
+            List<string> pubList = new List<string>();
+
+            foreach(IPublicationTarget t in proj.PublicationTargets.ToList())
+            {
+
+                oConsole.Text += t.Name + "<br>";
+
+                pubList.Add(t.Name);
+
+            }
+
+            IPublicationTarget target = selectedProject.PublicationTargets.GetByName(pubList[0]);
+
+            oConsole.Text = "Guid: " + target.Guid.ToString()
+
+            + "<br> Name: " + target.Name
+
+            + "<br> project: " + target.Project
+
+            + "<br> Session: " + target.Session
+
+            + "<br> url prefix: " + target.UrlPrefix
+
+            + "<br> Type: " + target.Type
+
+            + "<br> <br><br><br><br>";
 
         }
 
-        protected void TextBox1_TextChanged(object sender, System.EventArgs e)
+        protected void oConsole_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        protected void oConsole_TextChanged(object sender, System.EventArgs e)
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
-
-
     }
 }
 /* https://www.youtube.com/watch?v=Lvt1BnSwRvo&index=5&list=PL6n9fhu94yhXQS_p1i-HLIftB9Y7Vnxlo */
