@@ -1,4 +1,5 @@
 ﻿using erminas.SmartAPI.CMS.Project;
+using erminas.SmartAPI.CMS.Project.Pages;
 using erminas.SmartAPI.CMS.Project.Publication;
 using erminas.SmartAPI.Utils;
 using System;
@@ -24,7 +25,7 @@ namespace fullPublish
             var url = "http://localhost/cms";
             var login = new ServerLogin(url, null);
 
-            //Guid test = new Guid(Session["LoginGuid"].ToString());
+            Guid test = new Guid(Session["LoginGuid"].ToString());
             Guid loginGuid;
             Guid projectGuid;
             Guid.TryParse(Convert.ToString(Session["LoginGuid"]), out loginGuid);
@@ -47,10 +48,25 @@ namespace fullPublish
 
             var projectVariant = selectedProject.ProjectVariants;
 
+            foreach(var prjVariant in projectVariant)
+            {
+                //populate variant in a drop down list
+                TextVariant.Text = prjVariant.Name;
+            }
+
+            var allPages = selectedProject.Pages.OfCurrentLanguage;
+            TextBox2.Text = allPages.Count().ToString();
+
+            Pages _pages = new Pages(selectedProject);
+
+            var languageVariant = selectedProject.LanguageVariants.Current;
+
+            //var getPage = _pages.GetByGuid(pageGuid, languageVariant);
+            //_pages.
+
+            
             IProject proj = selectedProject;
-
-            var project = session.SelectedProject;
-
+            
             //var newPage = selectedProject.Pages.OfCurrentLanguage[0];
 
             List<string> pubList = new List<string>();
@@ -88,6 +104,11 @@ namespace fullPublish
         }
 
         protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void TextBox2_TextChanged(object sender, EventArgs e)
         {
 
         }

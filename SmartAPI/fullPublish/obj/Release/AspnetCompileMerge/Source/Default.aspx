@@ -15,6 +15,7 @@
             <p>
 
                 <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged" ReadOnly="True"></asp:TextBox>
+                <asp:TextBox ID="TextBox2" runat="server" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
             </p>
         </div>
         <div class="col-md-4">
@@ -32,7 +33,7 @@
                 This choice applies to all pages.
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                <asp:TextBox ID="TextVariant" runat="server" ReadOnly="True"></asp:TextBox>
             </p>
         </div>
     </div>
