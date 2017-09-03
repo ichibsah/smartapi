@@ -24,7 +24,8 @@
                 This choice applies to all pages.
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                 <asp:CheckBoxList ID="CheckBoxLangVariant" runat="server" RepeatDirection="Vertical">
+                </asp:CheckBoxList>
             </p>
         </div>
         <div class="col-md-4">
@@ -33,7 +34,8 @@
                 This choice applies to all pages.
             </p>
             <p>
-                <asp:TextBox ID="TextVariant" runat="server" ReadOnly="True"></asp:TextBox>
+                <asp:CheckBoxList ID="CheckBoxPrjVariant" runat="server" RepeatDirection="Vertical">
+                </asp:CheckBoxList>
             </p>
         </div>
     </div>
@@ -43,4 +45,5 @@
             <asp:TextBox ID="oConsole" runat="server" TextMode="MultiLine" Rows="5" ReadOnly="True" OnTextChanged="oConsole_TextChanged"></asp:TextBox>
         </div>
     </div>
+    <asp:Button ID="Button1" runat="server" Text="Button" />
 </asp:Content>
