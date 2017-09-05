@@ -24,7 +24,7 @@
                 This choice applies to all pages.
             </p>
             <p>
-                 <asp:CheckBoxList ID="CheckBoxLangVariant" runat="server" RepeatDirection="Vertical">
+                 <asp:CheckBoxList ID="CheckBoxLangVariant" runat="server" RepeatDirection="Vertical" OnSelectedIndexChanged="CheckBoxLangVariant_SelectedIndexChanged">
                 </asp:CheckBoxList>
             </p>
         </div>
@@ -34,16 +34,16 @@
                 This choice applies to all pages.
             </p>
             <p>
-                <asp:CheckBoxList ID="CheckBoxPrjVariant" runat="server" RepeatDirection="Vertical">
+                <asp:CheckBoxList ID="CheckBoxPrjVariant" runat="server" RepeatDirection="Vertical" OnSelectedIndexChanged="CheckBoxPrjVariant_SelectedIndexChanged">
                 </asp:CheckBoxList>
             </p>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-md-12">
-            <asp:TextBox ID="oConsole" runat="server" TextMode="MultiLine" Rows="5" ReadOnly="True" OnTextChanged="oConsole_TextChanged"></asp:TextBox>
+        <div>
+            <asp:TextBox ID="oConsole" runat="server" TextMode="MultiLine" Rows="7" ReadOnly="True" OnTextChanged="oConsole_TextChanged" Width="100%"></asp:TextBox>
         </div>
     </div>
-    <asp:Button ID="Button1" runat="server" Text="Button" />
+    <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
 </asp:Content>
