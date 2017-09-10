@@ -1,0 +1,9 @@
+G:\Sanbox\smartapi\SmartAPI\DeleteUnlinkedPages\bin\Debug\DeleteUnlinkedPages.exe.config
+G:\Sanbox\smartapi\SmartAPI\DeleteUnlinkedPages\bin\Debug\DeleteUnlinkedPages.exe
+G:\Sanbox\smartapi\SmartAPI\DeleteUnlinkedPages\bin\Debug\DeleteUnlinkedPages.pdb
+G:\Sanbox\smartapi\SmartAPI\DeleteUnlinkedPages\bin\Debug\erminas SmartAPI.dll
+G:\Sanbox\smartapi\SmartAPI\DeleteUnlinkedPages\bin\Debug\log4net.dll
+G:\Sanbox\smartapi\SmartAPI\DeleteUnlinkedPages\bin\Debug\erminas SmartAPI.pdb
+G:\Sanbox\smartapi\SmartAPI\DeleteUnlinkedPages\bin\Debug\log4net.xml
+G:\Sanbox\smartapi\SmartAPI\DeleteUnlinkedPages\obj\Debug\DeleteUnlinkedPages.exe
+G:\Sanbox\smartapi\SmartAPI\DeleteUnlinkedPages\obj\Debug\DeleteUnlinkedPages.pdb

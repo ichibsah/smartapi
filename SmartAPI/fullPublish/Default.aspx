@@ -24,7 +24,7 @@
                 This choice applies to all pages.
             </p>
             <p>
-                 <asp:CheckBoxList ID="CheckBoxLangVariant" runat="server" RepeatDirection="Vertical" OnSelectedIndexChanged="CheckBoxLangVariant_SelectedIndexChanged">
+                <asp:CheckBoxList ID="CheckBoxLangVariant" runat="server" RepeatDirection="Vertical" OnSelectedIndexChanged="CheckBoxLangVariant_SelectedIndexChanged">
                 </asp:CheckBoxList>
             </p>
         </div>
@@ -45,5 +45,22 @@
             <asp:TextBox ID="oConsole" runat="server" TextMode="MultiLine" Rows="7" ReadOnly="True" OnTextChanged="oConsole_TextChanged" Width="100%"></asp:TextBox>
         </div>
     </div>
-    <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+    <div class="row">
+        <div>
+            <asp:Literal ID="Debug1" runat="server" Visible="false"></asp:Literal>
+        </div>
+    </div>
+
+    <div class="row">
+        <div>
+            <asp:Label ID="lblmessage" runat="server" Text="Label">
+            </asp:Label>
+        </div>
+    </div>
+
+    <div class="row">
+        <div>
+            <asp:Button ID="SubmitButton" runat="server" Text="Submit" Visible="true" OnClick="Button1_Click" />
+        </div>
+    </div>
 </asp:Content>

@@ -1,0 +1,9 @@
+G:\Sanbox\smartapi\SmartAPI\DoSomething\bin\Debug\DoSomething.exe.config
+G:\Sanbox\smartapi\SmartAPI\DoSomething\bin\Debug\DoSomething.exe
+G:\Sanbox\smartapi\SmartAPI\DoSomething\bin\Debug\DoSomething.pdb
+G:\Sanbox\smartapi\SmartAPI\DoSomething\bin\Debug\erminas SmartAPI.dll
+G:\Sanbox\smartapi\SmartAPI\DoSomething\bin\Debug\log4net.dll
+G:\Sanbox\smartapi\SmartAPI\DoSomething\bin\Debug\erminas SmartAPI.pdb
+G:\Sanbox\smartapi\SmartAPI\DoSomething\bin\Debug\log4net.xml
+G:\Sanbox\smartapi\SmartAPI\DoSomething\obj\Debug\DoSomething.exe
+G:\Sanbox\smartapi\SmartAPI\DoSomething\obj\Debug\DoSomething.pdb
