@@ -8,3 +8,16 @@ G:\Sanbox\smartapi\SmartAPI\ConsoleApplication1\bin\Debug\DisplayProjectName.exe
 G:\Sanbox\smartapi\SmartAPI\ConsoleApplication1\bin\Debug\DisplayProjectName.pdb
 G:\Sanbox\smartapi\SmartAPI\ConsoleApplication1\obj\Debug\DisplayProjectName.exe
 G:\Sanbox\smartapi\SmartAPI\ConsoleApplication1\obj\Debug\DisplayProjectName.pdb
+F:\Sandbox\smartapi\SmartAPI\DisplayProjectName\bin\Debug\DisplayProjectName.exe.config
+F:\Sandbox\smartapi\SmartAPI\DisplayProjectName\bin\Debug\DisplayProjectName.exe
+F:\Sandbox\smartapi\SmartAPI\DisplayProjectName\bin\Debug\DisplayProjectName.pdb
+F:\Sandbox\smartapi\SmartAPI\DisplayProjectName\bin\Debug\erminas SmartAPI.dll
+F:\Sandbox\smartapi\SmartAPI\DisplayProjectName\bin\Debug\log4net.dll
+F:\Sandbox\smartapi\SmartAPI\DisplayProjectName\bin\Debug\erminas SmartAPI.pdb
+F:\Sandbox\smartapi\SmartAPI\DisplayProjectName\bin\Debug\erminas SmartAPI.dll.config
+F:\Sandbox\smartapi\SmartAPI\DisplayProjectName\bin\Debug\log4net.xml
+F:\Sandbox\smartapi\SmartAPI\DisplayProjectName\obj\Debug\DisplayProjectName.csprojAssemblyReference.cache
+F:\Sandbox\smartapi\SmartAPI\DisplayProjectName\obj\Debug\DisplayProjectName.csproj.CoreCompileInputs.cache
+F:\Sandbox\smartapi\SmartAPI\DisplayProjectName\obj\Debug\DisplayProjectName.csproj.CopyComplete
+F:\Sandbox\smartapi\SmartAPI\DisplayProjectName\obj\Debug\DisplayProjectName.exe
+F:\Sandbox\smartapi\SmartAPI\DisplayProjectName\obj\Debug\DisplayProjectName.pdb

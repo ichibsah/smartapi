@@ -13,3 +13,20 @@ G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\obj\Debug\erminas Smart API.csproj.
 G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\obj\Debug\erminas Smart API.csprojResolveAssemblyReference.cache
 G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\obj\Debug\erminas SmartAPI.dll
 G:\Sanbox\smartapi\SmartAPI\erminas.SmartAPI\obj\Debug\erminas SmartAPI.pdb
+F:\Sandbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Debug\erminas SmartAPI.dll.config
+F:\Sandbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Debug\erminas SmartAPI.dll
+F:\Sandbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Debug\erminas SmartAPI.pdb
+F:\Sandbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Debug\log4net.dll
+F:\Sandbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Debug\System.IO.dll
+F:\Sandbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Debug\System.Runtime.dll
+F:\Sandbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Debug\System.Threading.Tasks.dll
+F:\Sandbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Debug\log4net.xml
+F:\Sandbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Debug\System.IO.xml
+F:\Sandbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Debug\System.Runtime.xml
+F:\Sandbox\smartapi\SmartAPI\erminas.SmartAPI\bin\Debug\System.Threading.Tasks.xml
+F:\Sandbox\smartapi\SmartAPI\erminas.SmartAPI\obj\Debug\erminas Smart API.csproj.App.config
+F:\Sandbox\smartapi\SmartAPI\erminas.SmartAPI\obj\Debug\erminas Smart API.csprojAssemblyReference.cache
+F:\Sandbox\smartapi\SmartAPI\erminas.SmartAPI\obj\Debug\erminas Smart API.csproj.CoreCompileInputs.cache
+F:\Sandbox\smartapi\SmartAPI\erminas.SmartAPI\obj\Debug\erminas Smart API.csproj.CopyComplete
+F:\Sandbox\smartapi\SmartAPI\erminas.SmartAPI\obj\Debug\erminas SmartAPI.dll
+F:\Sandbox\smartapi\SmartAPI\erminas.SmartAPI\obj\Debug\erminas SmartAPI.pdb

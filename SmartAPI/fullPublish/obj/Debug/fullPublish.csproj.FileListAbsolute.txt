@@ -23,3 +23,31 @@ G:\Sanbox\smartapi\SmartAPI\fullPublish\bin\Microsoft.AspNet.FriendlyUrls.xml
 G:\Sanbox\smartapi\SmartAPI\fullPublish\obj\Debug\fullPublish.dll
 G:\Sanbox\smartapi\SmartAPI\fullPublish\obj\Debug\fullPublish.pdb
 G:\Sanbox\smartapi\SmartAPI\fullPublish\obj\Debug\fullPublish.csprojResolveAssemblyReference.cache
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\fullPublish.dll.config
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\fullPublish.dll
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\fullPublish.pdb
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\Antlr3.Runtime.dll
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\AspNet.ScriptManager.bootstrap.dll
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\AspNet.ScriptManager.jQuery.dll
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\erminas SmartAPI.dll
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\log4net.dll
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\Microsoft.AspNet.FriendlyUrls.dll
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\Microsoft.ScriptManager.MSAjax.dll
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\Microsoft.ScriptManager.WebForms.dll
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\Microsoft.Web.Infrastructure.dll
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\Newtonsoft.Json.dll
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\System.Web.Optimization.dll
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\WebGrease.dll
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\erminas SmartAPI.pdb
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\erminas SmartAPI.dll.config
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\log4net.xml
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\System.Web.Optimization.xml
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\Antlr3.Runtime.pdb
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\Newtonsoft.Json.xml
+F:\Sandbox\smartapi\SmartAPI\fullPublish\bin\Microsoft.AspNet.FriendlyUrls.xml
+F:\Sandbox\smartapi\SmartAPI\fullPublish\obj\Debug\fullPublish.csprojAssemblyReference.cache
+F:\Sandbox\smartapi\SmartAPI\fullPublish\obj\Debug\fullPublish.csproj.CoreCompileInputs.cache
+F:\Sandbox\smartapi\SmartAPI\fullPublish\obj\Debug\fullPublish.csproj.CopyComplete
+F:\Sandbox\smartapi\SmartAPI\fullPublish\obj\Debug\fullPublish.dll
+F:\Sandbox\smartapi\SmartAPI\fullPublish\obj\Debug\fullPublish.pdb

@@ -42,7 +42,7 @@ public class DoSomething
             IProject unknownProject;
             if(serverManager.Projects.ForCurrentUser.TryGetByName("nav_demo", out unknownProject))
             {
-                Console.WriteLine("Found project with guid: " + unknownProject.Guid);
+                Console.WriteLine($"Found project with guid: {unknownProject.Guid}");
             }
             else
             {

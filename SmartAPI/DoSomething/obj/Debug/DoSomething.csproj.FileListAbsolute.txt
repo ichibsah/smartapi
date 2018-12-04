@@ -7,3 +7,16 @@ G:\Sanbox\smartapi\SmartAPI\DoSomething\bin\Debug\erminas SmartAPI.pdb
 G:\Sanbox\smartapi\SmartAPI\DoSomething\bin\Debug\log4net.xml
 G:\Sanbox\smartapi\SmartAPI\DoSomething\obj\Debug\DoSomething.exe
 G:\Sanbox\smartapi\SmartAPI\DoSomething\obj\Debug\DoSomething.pdb
+F:\Sandbox\smartapi\SmartAPI\DoSomething\bin\Debug\DoSomething.exe.config
+F:\Sandbox\smartapi\SmartAPI\DoSomething\bin\Debug\DoSomething.exe
+F:\Sandbox\smartapi\SmartAPI\DoSomething\bin\Debug\DoSomething.pdb
+F:\Sandbox\smartapi\SmartAPI\DoSomething\bin\Debug\erminas SmartAPI.dll
+F:\Sandbox\smartapi\SmartAPI\DoSomething\bin\Debug\log4net.dll
+F:\Sandbox\smartapi\SmartAPI\DoSomething\bin\Debug\erminas SmartAPI.pdb
+F:\Sandbox\smartapi\SmartAPI\DoSomething\bin\Debug\erminas SmartAPI.dll.config
+F:\Sandbox\smartapi\SmartAPI\DoSomething\bin\Debug\log4net.xml
+F:\Sandbox\smartapi\SmartAPI\DoSomething\obj\Debug\DoSomething.csprojAssemblyReference.cache
+F:\Sandbox\smartapi\SmartAPI\DoSomething\obj\Debug\DoSomething.csproj.CoreCompileInputs.cache
+F:\Sandbox\smartapi\SmartAPI\DoSomething\obj\Debug\DoSomething.csproj.CopyComplete
+F:\Sandbox\smartapi\SmartAPI\DoSomething\obj\Debug\DoSomething.exe
+F:\Sandbox\smartapi\SmartAPI\DoSomething\obj\Debug\DoSomething.pdb

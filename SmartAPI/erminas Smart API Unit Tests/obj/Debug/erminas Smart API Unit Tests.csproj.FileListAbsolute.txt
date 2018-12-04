@@ -14,3 +14,23 @@ G:\Sanbox\smartapi\SmartAPI\erminas Smart API Unit Tests\obj\Debug\erminas Smart
 G:\Sanbox\smartapi\SmartAPI\erminas Smart API Unit Tests\obj\Debug\erminas Smart API Unit Tests.csprojResolveAssemblyReference.cache
 G:\Sanbox\smartapi\SmartAPI\erminas Smart API Unit Tests\obj\Debug\erminas Smart API Unit Tests.dll
 G:\Sanbox\smartapi\SmartAPI\erminas Smart API Unit Tests\obj\Debug\erminas Smart API Unit Tests.pdb
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\bin\Debug\erminas Smart API Unit Tests.dll.config
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\bin\Debug\erminas Smart API Unit Tests.dll
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\bin\Debug\erminas Smart API Unit Tests.pdb
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\bin\Debug\erminas SmartAPI.dll
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\bin\Debug\log4net.dll
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\bin\Debug\System.IO.dll
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\bin\Debug\System.Runtime.dll
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\bin\Debug\System.Threading.Tasks.dll
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\bin\Debug\log4net.xml
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\bin\Debug\System.IO.xml
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\bin\Debug\System.Runtime.xml
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\bin\Debug\System.Threading.Tasks.xml
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\obj\Debug\erminas Smart API Unit Tests.csproj.App.config
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\obj\Debug\erminas Smart API Unit Tests.csproj.CoreCompileInputs.cache
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\obj\Debug\erminas Smart API Unit Tests.csproj.CopyComplete
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\obj\Debug\erminas Smart API Unit Tests.dll
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\obj\Debug\erminas Smart API Unit Tests.pdb
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\bin\Debug\erminas Smart API Unit Tests.dll.CodeAnalysisLog.xml
+F:\Sandbox\smartapi\SmartAPI\erminas Smart API Unit Tests\bin\Debug\erminas Smart API Unit Tests.dll.lastcodeanalysissucceeded

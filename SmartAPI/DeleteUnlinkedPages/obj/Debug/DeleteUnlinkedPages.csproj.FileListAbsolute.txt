@@ -7,3 +7,16 @@ G:\Sanbox\smartapi\SmartAPI\DeleteUnlinkedPages\bin\Debug\erminas SmartAPI.pdb
 G:\Sanbox\smartapi\SmartAPI\DeleteUnlinkedPages\bin\Debug\log4net.xml
 G:\Sanbox\smartapi\SmartAPI\DeleteUnlinkedPages\obj\Debug\DeleteUnlinkedPages.exe
 G:\Sanbox\smartapi\SmartAPI\DeleteUnlinkedPages\obj\Debug\DeleteUnlinkedPages.pdb
+F:\Sandbox\smartapi\SmartAPI\DeleteUnlinkedPages\bin\Debug\DeleteUnlinkedPages.exe.config
+F:\Sandbox\smartapi\SmartAPI\DeleteUnlinkedPages\bin\Debug\DeleteUnlinkedPages.exe
+F:\Sandbox\smartapi\SmartAPI\DeleteUnlinkedPages\bin\Debug\DeleteUnlinkedPages.pdb
+F:\Sandbox\smartapi\SmartAPI\DeleteUnlinkedPages\bin\Debug\erminas SmartAPI.dll
+F:\Sandbox\smartapi\SmartAPI\DeleteUnlinkedPages\bin\Debug\log4net.dll
+F:\Sandbox\smartapi\SmartAPI\DeleteUnlinkedPages\bin\Debug\erminas SmartAPI.pdb
+F:\Sandbox\smartapi\SmartAPI\DeleteUnlinkedPages\bin\Debug\erminas SmartAPI.dll.config
+F:\Sandbox\smartapi\SmartAPI\DeleteUnlinkedPages\bin\Debug\log4net.xml
+F:\Sandbox\smartapi\SmartAPI\DeleteUnlinkedPages\obj\Debug\DeleteUnlinkedPages.csprojAssemblyReference.cache
+F:\Sandbox\smartapi\SmartAPI\DeleteUnlinkedPages\obj\Debug\DeleteUnlinkedPages.csproj.CoreCompileInputs.cache
+F:\Sandbox\smartapi\SmartAPI\DeleteUnlinkedPages\obj\Debug\DeleteUnlinkedPages.csproj.CopyComplete
+F:\Sandbox\smartapi\SmartAPI\DeleteUnlinkedPages\obj\Debug\DeleteUnlinkedPages.exe
+F:\Sandbox\smartapi\SmartAPI\DeleteUnlinkedPages\obj\Debug\DeleteUnlinkedPages.pdb

@@ -1,0 +1,3 @@
+F:\Sandbox\smartapi\SmartAPI\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+F:\Sandbox\smartapi\SmartAPI\WpfApp1\obj\Debug\App.g.cs
+F:\Sandbox\smartapi\SmartAPI\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
