@@ -1,0 +1,13 @@
+F:\Sandbox\smartapi\SmartAPI\playground\bin\Debug\playground.exe.config
+F:\Sandbox\smartapi\SmartAPI\playground\bin\Debug\playground.exe
+F:\Sandbox\smartapi\SmartAPI\playground\bin\Debug\playground.pdb
+F:\Sandbox\smartapi\SmartAPI\playground\bin\Debug\erminas SmartAPI.dll
+F:\Sandbox\smartapi\SmartAPI\playground\bin\Debug\log4net.dll
+F:\Sandbox\smartapi\SmartAPI\playground\bin\Debug\erminas SmartAPI.pdb
+F:\Sandbox\smartapi\SmartAPI\playground\bin\Debug\erminas SmartAPI.dll.config
+F:\Sandbox\smartapi\SmartAPI\playground\bin\Debug\log4net.xml
+F:\Sandbox\smartapi\SmartAPI\playground\obj\Debug\playground.csprojAssemblyReference.cache
+F:\Sandbox\smartapi\SmartAPI\playground\obj\Debug\playground.csproj.CoreCompileInputs.cache
+F:\Sandbox\smartapi\SmartAPI\playground\obj\Debug\playground.csproj.CopyComplete
+F:\Sandbox\smartapi\SmartAPI\playground\obj\Debug\playground.exe
+F:\Sandbox\smartapi\SmartAPI\playground\obj\Debug\playground.pdb
