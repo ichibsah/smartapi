@@ -187,6 +187,8 @@ namespace erminas.SmartAPI.CMS
 
         ISystemLocale StandardLocale { get; }
 
+        bool GetLoginStatus();
+
         /// <summary>
         ///     Waits for an asynchronous process to finish.
         ///     This is done by waiting for the process to spawn (or have it available on start) and then waiting for the process to disappear from the process list.
@@ -695,6 +697,33 @@ namespace erminas.SmartAPI.CMS
 
         private string CmsServerConnectionUrl { get; set; }
 
+        public object Success => throw new NotImplementedException();
+
+        IUser ISession.CurrentUser => throw new NotImplementedException();
+
+        IndexedCachedList<string, IDialogLocale> ISession.DialogLocales => throw new NotImplementedException();
+
+        IIndexedCachedList<int, ISystemLocale> ISession.Locales => throw new NotImplementedException();
+
+        Guid ISession.LogonGuid => throw new NotImplementedException();
+
+        IProject ISession.SelectedProject { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+        ServerLogin ISession.ServerLogin => throw new NotImplementedException();
+
+        IServerManager ISession.ServerManager => throw new NotImplementedException();
+
+        Version ISession.ServerVersion => throw new NotImplementedException();
+
+        string ISession.SessionKey => throw new NotImplementedException();
+
+        ISystemLocale ISession.StandardLocale => throw new NotImplementedException();
+
+        bool ISession.GetLoginStatus()
+        {
+            throw new NotImplementedException();
+        }
+
         private static string ExtractMessagesWithInnerExceptions(Exception e)
         {
             Exception curException = e;
@@ -1044,6 +1073,76 @@ namespace erminas.SmartAPI.CMS
                                            select new RunningSessionInfo(curLogin));
 
             return sessionToReplace != null;
+        }
+
+        XmlDocument ISession.ExecuteRQL(string query, RQL.IODataFormat format)
+        {
+            throw new NotImplementedException();
+        }
+
+        XmlDocument ISession.ExecuteRQL(string query)
+        {
+            throw new NotImplementedException();
+        }
+
+        XmlDocument ISession.ExecuteRQLInProjectContext(string query, Guid projectGuid)
+        {
+            throw new NotImplementedException();
+        }
+
+        XmlDocument ISession.ExecuteRQLInProjectContextAndEmbeddedInProjectElement(string query, Guid projectGuid)
+        {
+            throw new NotImplementedException();
+        }
+
+        string ISession.ExecuteRQLRaw(string query, RQL.IODataFormat ioDataFormat)
+        {
+            throw new NotImplementedException();
+        }
+
+        string ISession.GetTextContent(Guid projectGuid, ILanguageVariant lang, Guid elementGuid, string typeString)
+        {
+            throw new NotImplementedException();
+        }
+
+        void ISession.SelectProject(Guid projectGuid)
+        {
+            throw new NotImplementedException();
+        }
+
+        void ISession.SelectProject(IProject project)
+        {
+            throw new NotImplementedException();
+        }
+
+        void ISession.SendMailFromCurrentUserAccount(EMail mail)
+        {
+            throw new NotImplementedException();
+        }
+
+        void ISession.SendMailFromSystemAccount(EMail mail)
+        {
+            throw new NotImplementedException();
+        }
+
+        Guid ISession.SetTextContent(Guid projectGuid, ILanguageVariant languageVariant, Guid textElementGuid, string typeString, string content)
+        {
+            throw new NotImplementedException();
+        }
+
+        void ISession.WaitForAsyncProcess(TimeSpan maxWait, Predicate<IAsynchronousProcess> processPredicate)
+        {
+            throw new NotImplementedException();
+        }
+
+        void ISession.WaitForAsyncProcess(TimeSpan maxWait, TimeSpan retry, Predicate<IAsynchronousProcess> processPredicate)
+        {
+            throw new NotImplementedException();
+        }
+
+        void IDisposable.Dispose()
+        {
+            throw new NotImplementedException();
         }
     }
 
